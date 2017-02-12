@@ -3,17 +3,25 @@ namespace App;
 
 class Baseball
 {
+    protected $hits;
+
+    public function setup()
+    {
+        $hits = 0;
+    }
+
     /**
     * Add two given values together and divide by 2
     */
     public function calc_avg($ab, $hits)
     {
-        if ($ab == 0) {
-            $avg = "0.000";
-        } else {
-            $avg = number_format($hits / $ab, 3);
+        $res = "0.000";
+
+        if ($ab !== 0) {
+            $res = number_format($hits / $ab, 3);
         }
-        return $avg;
+
+        return $res;
     }
 
     /**
