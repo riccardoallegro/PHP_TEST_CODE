@@ -7,7 +7,7 @@ use \App\Baseball;
 
 class BaseballTest extends TestCase
 {
-    public function testContaPalle()     
+    public function testContaPalle()
     {
         $b = new Baseball();
 
