@@ -7,7 +7,7 @@ class Baseball
 
     public function setup()
     {
-        $hits = 0;
+        $this->hits = 0;
     }
 
     /**
