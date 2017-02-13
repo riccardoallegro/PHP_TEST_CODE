@@ -24,4 +24,9 @@ class FakeTest extends TestCase
     {
         $this->assertFalse(true);
     }
+
+    public function testFalse2()
+    {
+        $this->assertFalse(true);
+    }
 }
