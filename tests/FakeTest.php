@@ -7,8 +7,6 @@ use App\Baseball;
 /**
 * Commento inutile per il branch "ubuntu"
 */
-
-
 /**
  * Aggiungo un commento.
  * Questa modifica dovrebbe essere visibile solo nel branch "windows"
