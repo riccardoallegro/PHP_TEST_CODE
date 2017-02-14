@@ -6,13 +6,16 @@ use App\Baseball;
 
 class FakeTest extends TestCase
 {
-    public function test()
+    //#IFDEF(##WINDOWS)
+    //#BEGIN
+    public function testWindowsTrue()
     {
         $this->assertTrue(true);
     }
 
-    public function testName1()
+    public function testWindowsFalse()
     {
-        $this->assertTrue(true);
+        $this->assertFalse(true);
     }
+    //#END
 }
