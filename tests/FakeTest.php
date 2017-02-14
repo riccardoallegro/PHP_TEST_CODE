@@ -29,6 +29,8 @@ class FakeTest extends TestCase
     }
     //#END
 
+    //#IFDEF(##UBUNTU _OR_ ##LINUX)
+    //#BEGIN
     public function testFalse()
     {
         $this->assertFalse(true);
@@ -38,4 +40,5 @@ class FakeTest extends TestCase
     {
         $this->assertFalse(true);
     }
+    //#END
 }
