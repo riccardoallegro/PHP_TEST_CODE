@@ -3,18 +3,39 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 use App\Baseball;
+
 /**
 * Commento inutile per il branch "ubuntu"
 */
+
+
+/**
+ * Aggiungo un commento.
+ * Questa modifica dovrebbe essere visibile solo nel branch "windows"
+ */
+
 class FakeTest extends TestCase
 {
-    public function test()
+    //#IFDEF(##WINDOWS)
+    //#BEGIN
+    public function testWindowsTrue()
     {
         $this->assertTrue(true);
     }
 
-    public function testName1()
+    public function testWindowsFalse()
     {
-        $this->assertTrue(true);
+        $this->assertFalse(true);
+    }
+    //#END
+
+    public function testFalse()
+    {
+        $this->assertFalse(true);
+    }
+
+    public function testFalse2()
+    {
+        $this->assertFalse(true);
     }
 }

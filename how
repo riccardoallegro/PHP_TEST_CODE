@@ -1,0 +1,41 @@
+[33mcommit 27cd4d2c7d6fa7f2c90a7fa9707a01b9a3ac7722[m
+Author: riccardo <man.in.the.bolla@gmail.com>
+Date:   Mon Feb 13 20:08:48 2017 +0100
+
+    Modifiche al branch "ubuntu"
+
+[33mcommit c64e7863860f7356d9f84a7fbc13d3d12cd3efae[m
+Author: Riccardo Deri <riccardoallegro@gmail.com>
+Date:   Sun Feb 12 22:05:38 2017 +0100
+
+    corretto function setup()
+
+[33mcommit ea240bb61a62ca807c5793a58e8e243ecc3b7867[m
+Author: riccardo <man.in.the.bolla@gmail.com>
+Date:   Sun Feb 12 21:36:24 2017 +0100
+
+    Refactoring del metodo calc_avg
+
+[33mcommit f5adf9ff99ec96d5ad74153fca87717374e01f76[m
+Author: Riccardo Deri <riccardoallegro@gmail.com>
+Date:   Sun Feb 12 21:13:12 2017 +0100
+
+    Eliminato una cartella inutilissima
+
+[33mcommit 1c0970e301f9832a44cfb4b6fefa359b2903fa2d[m
+Author: Riccardo Deri <riccardoallegro@gmail.com>
+Date:   Sun Feb 12 18:13:46 2017 +0100
+
+    Modifica fake ad un test
+
+[33mcommit 85403f5c9dfa07538e1caf834fc95cf39276b93d[m
+Author: Riccardo Deri <riccardoallegro@gmail.com>
+Date:   Sun Feb 12 17:57:12 2017 +0100
+
+    Aggiunto tutti i file (up to date)
+
+[33mcommit 55a6daee78e30e1d06c306fce69c0bbe1feb020a[m
+Author: Riccardo Deri <riccardoallegro@gmail.com>
+Date:   Sun Feb 12 17:39:01 2017 +0100
+
+    Un messaggio che spiega il senso del commit
