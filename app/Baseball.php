@@ -5,6 +5,10 @@ class Baseball
 {
     protected $hits;
 
+    /**
+    * Metodo per inizializzare la classe.
+    * (e invece non è vero)
+    */    
     public function setup()
     {
         $this->hits = 0;
